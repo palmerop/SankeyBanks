@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset='utf-8' />
-    <title>Sankey plot for AFG</title>
-    script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-</head>
-
-<body>
-    <div id="sankey_basic" style="width: 900px; height: 600px;"></div>
-
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <div id="sankey_basic" style="width: 900px; height: 635px;"></div>
+       
     <script>
       google.charts.load('current', {'packages':['sankey']});
       google.charts.setOnLoadCallback(drawChart);
@@ -101,5 +95,5 @@
         chart.draw(data, options);
       }
     </script>
-</body>
+
 </html>
